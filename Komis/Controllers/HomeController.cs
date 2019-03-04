@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreWebApp_1.Models;
+using Komis.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace NetCoreWebApp_1.Controllers
+namespace Komis.Controllers
 {
     public class HomeController : Controller
     {

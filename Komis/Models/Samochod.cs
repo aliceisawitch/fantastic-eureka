@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetCoreWebApp_1.Models
+namespace Komis.Models
 {
     public class Samochod
     {

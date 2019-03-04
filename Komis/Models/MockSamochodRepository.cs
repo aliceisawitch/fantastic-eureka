@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreWebApp_1.Models
+namespace Komis.Models
 {
     public class MockSamochodRepository : ISamochodRepository
     {

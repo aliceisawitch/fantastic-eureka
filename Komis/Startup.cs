@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using NetCoreWebApp_1.Models;
+using Komis.Models;
 
-namespace NetCoreWebApp_1
+namespace Komis
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace NetCoreWebApp_1.Models
+namespace Komis.Models
 {
     public interface ISamochodRepository
     {
