@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace NetCoreWebApp_1.Views.Home
+namespace Komis.Views.Home
 {
     public class IndexModel : PageModel
     {
