@@ -1,20 +1,10 @@
-﻿@model IEnumerable<Komis.Models.Samochod>
-<!DOCTYPE html>
-<html lang="pl">
+﻿@model Komis.ViewModels.HomeVM
+        <h1>@Model.Tytul</h1>
+        @foreach (var samochod in Model.Samochody)
+    {
+        <div>
+            <h2>@samochod.Marka</h2>
+            <h2>@samochod.Model</h2>
+        </div>
+    }
 
-<head>
-
-    <meta charset="utf-8">
-    <title>Moja witryna</title>
-    <meta name="author" content="Alice Gajos">
-
-    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-</head>
-
-
-<body>
-    <h2>@ViewBag.tytul</h2>
-
-</body>
-
-</html>
